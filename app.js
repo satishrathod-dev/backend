@@ -62,7 +62,7 @@ app.use("/api/charts", chartRoutes);
 app.use("/api/statistics", statisticsRoutes);
 
 // server to listen on `port`
-// const port = process.env.PORT || 5000;
-app.listen(5000, () => {
-  console.log(`Server started on port 5000`);
+const port = process.env.PORT || 8080;
+app.listen(8080, () => {
+  console.log(`Server started on port 8080`);
 });

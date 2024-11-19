@@ -63,6 +63,6 @@ app.use("/api/statistics", statisticsRoutes);
 
 // server to listen on `port`
 const port = process.env.PORT || 8080;
-app.listen(8080, () => {
-  console.log(`Server started on port 8080`);
+app.listen(port, () => {
+  console.log(`Server started on port {port}`);
 });

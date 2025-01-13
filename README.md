@@ -29,7 +29,7 @@ npm install
 
 # Configure the environment variables in a .env file:
 
-MONGO_URI=mongodb://localhost:27017/product_transactions
+MONGO_URI: URL
 PORT=5000
 THIRD_PARTY_API=https://s3.amazonaws.com/roxiler.com/product_transaction.json
 # Start the server:

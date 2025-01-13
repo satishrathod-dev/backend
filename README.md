@@ -16,8 +16,7 @@ This backend project fetches product transaction data from a third-party API, st
 
 ## Setup
 1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/product-transactions-backend.git
+   git clone: https://github.com/satishrathod-dev/product-transactions-backend.git
    cd product-transactions-backend
 
 

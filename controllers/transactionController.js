@@ -1,4 +1,4 @@
-const Transaction = require("../models/Transaction");
+const Transaction = require("../schema/Transaction");
 
 const getTransactions = async (req, res) => {
   // Destructuring elements
